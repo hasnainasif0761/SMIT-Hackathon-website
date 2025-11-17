@@ -93,6 +93,10 @@ header
     width: 50%;
     left: 630px;
 }
+.room_manage
+{
+    box-shadow: 0px 0px 10px gray;
+}
 .room_search
 {
     width: 100%;
@@ -259,4 +263,127 @@ header
     display: flex;
     align-items: center;
     height: 85px;
+}
+.car_card 
+{
+    width: 100%;
+    height: 370px;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.card_img
+{
+    height: 150px;
+    border-bottom: 1px solid rgb(226, 225, 225);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card_img img
+{
+    width: 230px;
+    height: 100px;
+}
+.card_heading
+{
+    /* border: 1px solid red; */
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.card_heading h1
+{
+    font-size: 17px;
+}
+.card_detail
+{
+   border-bottom: 1px solid rgb(226, 225, 225);
+   padding-left: 10px;
+   padding-top: 6px;
+   padding-bottom: 1px;
+}
+.card_detail span
+{
+    font-size: 14px;
+    color:gray;
+}
+.card_price
+{
+    /* border: 1px solid red; */
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.card_price button
+{
+    padding: 5px 40px;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+.class_main
+{
+    height: 400px;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.class_main button
+{
+   background: var(--bg-sky-blue);
+   color: var(--background-color);
+   margin-bottom: 10px;
+}
+.class_main button
+{
+    border:none;
+}
+.class_img
+{
+    padding-top: 160px;
+    padding-left: 100px;
+}
+.class_img img
+{
+    width: 300px;
+}
+.footer-link {
+    color: #a9b7c7;
+    text-decoration: none;
+}
+.footer-link:hover {
+    color: #fff;
+}
+
+.social-icon {
+    width: 35px;
+    height: 35px;
+    background: #0d2a45;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+.social-icon:hover {
+    background: #1a446e;
+}
+@media (max-width:570px){
+ .nav
+ {
+    padding: 5px 5px;
+ }
+ .hero_content
+ {
+    padding-left: 0px;
+ }
+ .content_img h1
+ {
+    font-size: 32px;
+ }   
+ .hero_img .img_2
+ {
+    display: none;
+ }
 }
