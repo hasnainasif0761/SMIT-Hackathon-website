@@ -11,6 +11,7 @@
     --background-color: #1572D3;
     --font-size-p:14px;
     --color-p:rgb(156, 149, 149);
+    --bg-sky-blue:#e7f0fa;
 }
 header
 {
@@ -96,7 +97,6 @@ header
 {
     width: 100%;
     height: 100px;
-    border: 2px solid red;
 }
 .room_main
 {
@@ -114,4 +114,149 @@ header
     height: 40px;
     line-height: 2px;
     margin-top: 10px;
+}
+.book_room
+{
+    display: flex;
+    justify-content: center;
+}
+.book_room button
+{
+    background-color: #e7f0fa;
+    color: var(--background-color);
+    margin-top: 10px;
+}
+.book_room h1
+{
+    margin-top: 15px;
+    font-size: 30px;
+    margin-bottom:20px;
+    margin-left: 100px;
+}
+.book_card_main
+{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.book_card
+{
+ width:20%;
+ height: 300px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.book_card_icon
+{
+    width:45%;
+    height:70px;
+    /* border:1px solid red; */
+    background-color:#e7f0fa;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:10px;
+    margin-left:28%;
+    margin-top:20px
+}
+.book_card_icon img
+{
+    width:50px;
+    height:50px;
+}
+.book_card_content
+{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    text-align:center;
+    margin-top: 10px;
+}
+.book_card_content h1
+{
+   font-size:20px;
+}
+.book_card_content p
+{
+    font-size:12px;
+    color:gray;
+}
+
+.comp_logo_move {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.comp_logos {
+    display: inline-flex;
+    gap: 120px;
+    animation: slide 20s linear infinite;
+}
+
+.comp_logos img {
+    width: 200px;
+    height:50px;
+    user-select: none;
+    pointer-events: none;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+.booking_car_feature
+{
+    height:400px;
+    padding-top: 50px;
+}
+.booking_car_feature img
+{
+  width: 100%;
+}
+.booking_car_features_content button
+{
+  background-color: var(--bg-sky-blue);
+  color:var(--background-color);
+  border:none;
+}
+.booking_car_features_content h1
+{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.car_features_icon
+{
+    width:40px;
+    height:40px;
+    background-color: var(--bg-sky-blue);
+    border-radius:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+.car_features_content h1
+{
+  font-size: 17px;
+}
+.car_features_content p
+{
+    font-size: 12px;
+    color: var(--color-p);
+}
+.car_features_content_main
+{
+    display: flex;
+    align-items: center;
+    height: 85px;
 }
